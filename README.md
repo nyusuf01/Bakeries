@@ -15,7 +15,8 @@ Cookie Monster is a website built with React and Airtable that sources out its d
 
 
 ## Component Hierarchy
-<img width="1073" alt="cookiemonster3" src="https://user-images.githubusercontent.com/80069382/117286903-c0710a00-ae37-11eb-915f-5214e0ec7432.png">
+<img width="952" alt="CookieMonster5" src="https://user-images.githubusercontent.com/80069382/117298604-8e66a480-ae45-11eb-836f-e651dcc00e8a.png">
+
 
 ## API and Data Sample
 
