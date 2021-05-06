@@ -60,12 +60,13 @@ Cookie Monster is a website built with React and Airtable that sources out its d
 #### MVP 
 
 -Home page with a clickable button that route to the respective feed.
+
 -Get and post cookies from user reviews from Airtable.
+
 -Create reviews using forms and update Airtable.
 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
 - Add multiple reviews from many users for one item
 - A more user friendly UI 
