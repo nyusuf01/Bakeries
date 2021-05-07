@@ -74,6 +74,7 @@ Bakeries is a website built with React and Airtable that sources out its data fr
 #### PostMVP  
 
 - A more user friendly UI 
+- A voting feature for top three or top ten bakeries
 
 ## Project Schedule
 
