@@ -96,17 +96,18 @@ Bakeries is a website built with React and Airtable that sources out its data fr
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Airtable setup            |    H     |     .5hrs      |               |             |
+| Airtable setup            |    H     |      1 hr      |               |             |
 | Buttons                   |    H     |      2hrs      |               |             |
 | Data population page 1    |    H     |      3hrs      |               |             |
 | Data population page 2    |    H     |      3hrs      |               |             |
+| Data population page 3    |    H     |      3hrs      |               |             |
 | Form creation page 2      |    H     |      3hrs      |               |             |
 | Form creation page 2      |    H     |      3hrs      |               |             |
-| Data creation/update pg 1 |    H     |      3hrs      |               |             |
 | Data creation/update pg 2 |    H     |      3hrs      |               |             |
+| Data creation/update pg 3 |    H     |      3hrs      |               |             |
 | Component CSS page 1      |    H     |      3hrs      |               |             |
 | Component CSS page 2      |    H     |      3hrs      |               |             |
-| Total                     |    H     |    26.5hrs     |               |             |
+| Total                     |    H     |     30 hrs     |               |             |
 
 ## SWOT Analysis
 
