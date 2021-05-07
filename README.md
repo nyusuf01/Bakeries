@@ -27,7 +27,7 @@ Bakeries is a website built with React and Airtable that sources out its data fr
 
 ## Component Hierarchy
 
-<img width="950" alt="wireframeprojecttwo" src="https://user-images.githubusercontent.com/80069382/117486260-6ce5e580-af37-11eb-8676-a07005f6ff17.png">
+<img width="955" alt="projecttwowireframe" src="https://user-images.githubusercontent.com/80069382/117487498-298c7680-af39-11eb-8f1e-7d308928732f.png">
 
 
 
