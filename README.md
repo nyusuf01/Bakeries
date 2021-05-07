@@ -10,9 +10,18 @@ Bakeries is a website built with React and Airtable that sources out its data fr
 
 ## Wireframes
 
-<img width="816" alt="bakeries2" src="https://user-images.githubusercontent.com/80069382/117441635-b288bb00-af03-11eb-83e3-2fdc214b74cb.png">
+![Website1](https://user-images.githubusercontent.com/80069382/117472034-76b31d00-af26-11eb-8b54-a245466c2279.png)
 
-<img width="426" alt="bakerymobile" src="https://user-images.githubusercontent.com/80069382/117449177-a99ce700-af0d-11eb-9cfc-4f092637dcf1.png">
+![Website2](https://user-images.githubusercontent.com/80069382/117472076-83d00c00-af26-11eb-83f0-d6c6fa2d562d.png)
+
+![Website3](https://user-images.githubusercontent.com/80069382/117472128-91859180-af26-11eb-8a88-de67b461877a.png)
+
+![iPhone1](https://user-images.githubusercontent.com/80069382/117472140-95b1af00-af26-11eb-8001-ca1469e80cc6.png)
+
+![iPhone2](https://user-images.githubusercontent.com/80069382/117472161-99ddcc80-af26-11eb-8404-90a21633fc13.png)
+
+![iPhone3](https://user-images.githubusercontent.com/80069382/117472188-9fd3ad80-af26-11eb-8973-c3195fbbd234.png)
+
 
 
 
