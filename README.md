@@ -1,21 +1,25 @@
 # Project Overview
 
-## Cookie Monster
+## Bakeries
 
 
 
 ## Project Description
 
-Cookie Monster is a website built with React and Airtable that sources out its data from the users. Users are able to leave their input on what and where their best cookie experience was, as well as insert their review of the said cookie. The homepage displays some of the most popular cookies that has been reviewed and also leads to another page where users can fill out a form to cast their opinion on their favorite cookie.
+Bakeries is a website built with React and Airtable that sources out its data from the users. Users are able to leave their input on what and where their best bakery experience was, as well as insert their review of the said bakery. The homepage displays some of the most popular bakeries that has been reviewed and also leads to another page where users can fill out a form to cast their opinion on their favorite bakeries.
 
 ## Wireframes
 
-<img width="814" alt="CookieMonster1" src="https://user-images.githubusercontent.com/80069382/117284485-dd580e00-ae34-11eb-81d8-adbb2d5e1b8a.png">
-<img width="432" alt="CookieMonster2" src="https://user-images.githubusercontent.com/80069382/117285778-61f75c00-ae36-11eb-820f-ff409f8d9ae1.png">
+<img width="816" alt="bakeries2" src="https://user-images.githubusercontent.com/80069382/117441635-b288bb00-af03-11eb-83e3-2fdc214b74cb.png">
+
+<img width="428" alt="bakeries3" src="https://user-images.githubusercontent.com/80069382/117441642-b583ab80-af03-11eb-9fd6-8dc1bb7b99a3.png">
+
 
 
 ## Component Hierarchy
-<img width="952" alt="CookieMonster5" src="https://user-images.githubusercontent.com/80069382/117298604-8e66a480-ae45-11eb-836f-e651dcc00e8a.png">
+
+<img width="924" alt="bakeries" src="https://user-images.githubusercontent.com/80069382/117441671-c16f6d80-af03-11eb-94db-3788918e8de6.png">
+
 
 
 ## API and Data Sample
@@ -62,14 +66,15 @@ Cookie Monster is a website built with React and Airtable that sources out its d
 
 -Home page with a clickable button that route to the respective feed.
 
--Get and post cookies from user reviews from Airtable.
+-Get and post comments on a specific bakery from users from Airtable.
 
--Create reviews using forms and update Airtable.
+-Get and post opinions of users favorite bakeries from users using Airtable
+
+
 
 
 #### PostMVP  
 
-- Add multiple reviews from many users for one item
 - A more user friendly UI 
 
 ## Project Schedule
@@ -93,7 +98,7 @@ Cookie Monster is a website built with React and Airtable that sources out its d
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
 | Airtable setup            |    H     |     .5hrs      |               |             |
-| Buttons.                  |    H     |      2hrs      |               |             |
+| Buttons                   |    H     |      2hrs      |               |             |
 | Data population page 1    |    H     |      3hrs      |               |             |
 | Data population page 2    |    H     |      3hrs      |               |             |
 | Form creation page 2      |    H     |      3hrs      |               |             |
