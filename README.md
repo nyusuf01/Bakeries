@@ -43,7 +43,8 @@ Bakeries is a website built with React and Airtable that sources out its data fr
             "fields": {
                 "city": "new york",
                 "review": "universally perfect, crunchy and cakey soft",
-                "Name": "maman"
+                "name": "maman",
+                "country": "u.s.a"
             },
             "createdTime": "2021-05-06T10:53:57.000Z"
         },
@@ -52,7 +53,8 @@ Bakeries is a website built with React and Airtable that sources out its data fr
             "fields": {
                 "city": "new york",
                 "review": "like a massive chunk of space rubble",
-                "Name": "levain bakery"
+                "name": "levain bakery",
+                "country": "u.s.a"
             },
             "createdTime": "2021-05-06T10:53:57.000Z"
         },
