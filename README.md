@@ -32,20 +32,18 @@ Bakeries is a website built with React and Airtable that sources out its data fr
         {
             "id": "recwhiFgxauOXv4Fo",
             "fields": {
-                "Name": "nutty chocolate chip cookie",
-                "where-to-find": "maman",
                 "city": "new york",
-                "review": "universally perfect, crunchy and cakey soft"
+                "review": "universally perfect, crunchy and cakey soft",
+                "Name": "maman"
             },
             "createdTime": "2021-05-06T10:53:57.000Z"
         },
         {
             "id": "recycdZPKNkqrk2gO",
             "fields": {
-                "Name": "chocolate chip walnut",
-                "where-to-find": "levain bakery",
                 "city": "new york",
-                "review": "like a massive chunk of space rubble"
+                "review": "like a massive chunk of space rubble",
+                "Name": "levain bakery"
             },
             "createdTime": "2021-05-06T10:53:57.000Z"
         },
