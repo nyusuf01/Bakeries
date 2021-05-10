@@ -6,6 +6,7 @@ import "./App.css";
 import Form from "./components/Form";
 import Bakery from "./components/Bakery";
 import Nav from "./components/Nav";
+import Homepage from "./components/Homepage";
 
 function App() {
   const [bakeries, setBakeries] = useState([]);
@@ -24,11 +25,12 @@ function App() {
       <body>
         <Nav />
         <Route exact path="/">
-          <main>
-            {bakeries.map((bakery) => (
-              <Bakery bakery={bakery} setToggleFetch={setToggleFetch} />
-            ))}
-          </main>
+          <div className="bakery-container">
+            {bakeries &&
+              bakeries.map((bakery) => (
+                <Homepage key={bakery._id} bakery={bakery} />
+              ))}
+          </div>
         </Route>
         <Route path="/new">
           <div>
