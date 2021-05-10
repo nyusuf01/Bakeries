@@ -7,6 +7,7 @@ import Form from "./components/Form";
 import Bakery from "./components/Bakery";
 import Nav from "./components/Nav";
 import Homepage from "./components/Homepage";
+import IndividualBakeries from "./components/IndividualBakeries";
 
 function App() {
   const [bakeries, setBakeries] = useState([]);
@@ -32,6 +33,9 @@ function App() {
               ))}
           </div>
         </Route>
+        <Route path="/info/:name">
+          <IndividualBakeries bakeries={bakeries} />
+        </Route>
         <Route path="/new">
           <div>
             <Form bakeries={bakeries} setToggleFetch={setToggleFetch} />
@@ -41,6 +45,7 @@ function App() {
           </div>
         </Route>
       </body>
+      ≠≠
     </div>
   );
 }
