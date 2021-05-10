@@ -32,7 +32,9 @@ function IndividualBakeries(props) {
         <h4>
           <br></br>
           <button>
-            <a href={bakery && bakery.fields.website}>Read More</a>
+            <a href={bakery && bakery.fields.website} target="_blank">
+              Official Website
+            </a>
           </button>
         </h4>
       </div>

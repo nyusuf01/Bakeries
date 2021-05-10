@@ -1,7 +1,3 @@
-import { Link } from "react-router-dom";
-import axios from "axios";
-import { baseURL, config } from "../services";
-
 function Bakery(props) {
   // same as const country = props.bakery.fields.country;
   const { name, city, country, review, author, image } = props.bakery.fields;
