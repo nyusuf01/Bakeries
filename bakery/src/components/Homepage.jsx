@@ -6,8 +6,11 @@ function Homepage(props) {
       <Link to={`/info/${props.bakery.fields.name}`}>
         <img src={props.bakery.fields.image} />
         <h1>{props.bakery.fields.name}</h1>
-        <h4>{props.bakery.fields.city}</h4>
-        <h4>{props.bakery.fields.country}</h4>
+        <h4>
+          <em>
+            ({props.bakery.fields.city}, {props.bakery.fields.country})
+          </em>
+        </h4>
       </Link>
     </div>
   );
