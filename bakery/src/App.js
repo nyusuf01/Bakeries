@@ -5,14 +5,15 @@ import "./App.css";
 
 function App() {
   const [bakeries, setBakeries] = useState([]);
+  const [toggleFetch, setToggleFetch] = useState(false);
 
   useEffect(() => {
     const fetchBakeries = async () => {
       const resp = await axios.get(baseURL, config);
-      console.log(resp.data);
+      setBakeries(resp.data.records);
     };
     fetchBakeries();
-  }, []);
+  }, [toggleFetch]);
 
   return <div className="App"></div>;
 }
