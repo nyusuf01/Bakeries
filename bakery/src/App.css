@@ -10,17 +10,15 @@ button:hover {
   background: black;
   color: #efefef;
 }
-main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5px;
-}
+
 nav {
   width: 100vw;
-  padding: 5px;
+  padding: 20px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  border-bottom: rgb(18, 19, 15) solid 2px;
+  background-color: rgba(245, 251, 252, 0.651);
 }
 nav a {
   text-decoration: none;
@@ -30,9 +28,58 @@ nav a {
 nav a:hover {
   border-bottom: 2px solid currentColor;
 }
+
 img {
   width: 35%;
 }
+
+.bakery-info-container {
+  text-align: center;
+  border: solid black 1px;
+  margin: 30px;
+  align-items: stretch;
+  background-color: white;
+}
+
+.bakery-info-container h2 {
+  font-weight: normal;
+  background-color: rgba(185, 196, 191, 0.468);
+  border-bottom: solid black 1px;
+  padding: 5px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.bakery-column-container img {
+  border-radius: 40%;
+}
+
+.homepage-bakery-container {
+  text-align: center;
+  border: solid black 1px;
+  margin: 30px;
+  align-items: stretch;
+  background-color: white;
+}
+
+.homepage-bakery-container h1 {
+  font-weight: normal;
+  background-color: rgba(185, 196, 191, 0.468);
+  border-bottom: solid black 1px;
+  padding: 5px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.form-container {
+  text-align: center;
+  border: solid black 1px;
+  margin-top: 10px;
+  align-items: stretch;
+  background-color: white;
+  justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
   main {
     grid-template-columns: repeat(2, 1fr);

@@ -10,12 +10,13 @@ function IndividualBakeries(props) {
 
   return (
     <div className="bakery-info-container">
-      <img
-        src={bakery && bakery.fields.image}
-        alt={bakery && bakery.fields.name}
-      />
       <div className="text">
         <h2>{bakery && bakery.fields.name}</h2>
+        <br></br>
+        <img
+          src={bakery && bakery.fields.image}
+          alt={bakery && bakery.fields.name}
+        />
         <br></br>
         <h3>
           <em>

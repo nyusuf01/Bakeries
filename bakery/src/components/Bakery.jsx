@@ -3,8 +3,10 @@ function Bakery(props) {
   const { name, city, country, review, author, image } = props.bakery.fields;
 
   return (
-    <div>
+    <div className="bakery-column-container">
+      <br></br>
       <img src={image} />
+      <br></br>
       <h3>{name}</h3>
       <h4>{city}</h4>
       <h5>{country}</h5>

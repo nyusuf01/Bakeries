@@ -23,28 +23,28 @@ function App() {
 
   return (
     <div className="App">
-      <body>
-        <Nav />
-        <Route exact path="/">
+      <Nav />
+      <Route exact path="/">
+        <main>
           <div className="bakery-container">
             {bakeries &&
               bakeries.map((bakery) => (
                 <Homepage key={bakery._id} bakery={bakery} />
               ))}
           </div>
-        </Route>
-        <Route path="/info/:name">
-          <IndividualBakeries bakeries={bakeries} />
-        </Route>
-        <Route path="/new">
-          <div>
-            <Form bakeries={bakeries} setToggleFetch={setToggleFetch} />
-            {bakeries.map((bakery) => (
-              <Bakery bakery={bakery} setToggleFetch={setToggleFetch} />
-            ))}
-          </div>
-        </Route>
-      </body>
+        </main>
+      </Route>
+      <Route path="/info/:name">
+        <IndividualBakeries bakeries={bakeries} />
+      </Route>
+      <Route path="/new">
+        <div>
+          <Form bakeries={bakeries} setToggleFetch={setToggleFetch} />
+          {bakeries.map((bakery) => (
+            <Bakery bakery={bakery} setToggleFetch={setToggleFetch} />
+          ))}
+        </div>
+      </Route>
       ≠≠
     </div>
   );

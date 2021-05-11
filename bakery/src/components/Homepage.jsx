@@ -2,9 +2,12 @@ import { Link } from "react-router-dom";
 
 function Homepage(props) {
   return (
-    <div className="bakery-container">
-      <img src={props.bakery.fields.image} />
+    <div className="homepage-bakery-container">
       <h1>{props.bakery.fields.name}</h1>
+      <br></br>
+      <br></br>
+      <img src={props.bakery.fields.image} />
+
       <h4>
         <em>
           ({props.bakery.fields.city}, {props.bakery.fields.country})

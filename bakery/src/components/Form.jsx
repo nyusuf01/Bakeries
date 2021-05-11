@@ -51,44 +51,67 @@ function Form(props) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="name">Name: </label>
-      <input
-        type="text"
-        id="name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <label htmlFor="city">City: </label>
-      <input
-        type="text"
-        id="city"
-        value={city}
-        onChange={(e) => setCity(e.target.value)}
-      />
-      <label htmlFor="country">Country: </label>
-      <input
-        type="text"
-        id="country"
-        value={country}
-        onChange={(e) => setCountry(e.target.value)}
-      />
-      <label htmlFor="review">Review: </label>
-      <input
-        type="text"
-        id="review"
-        value={review}
-        onChange={(e) => setReview(e.target.value)}
-      />
-      <label htmlFor="author">Author: </label>
-      <input
-        type="text"
-        id="author"
-        value={author}
-        onChange={(e) => setAuthor(e.target.value)}
-      />
-      <button type="submit">Submit</button>
-    </form>
+    <div className="form-container">
+      <br></br>
+      <form onSubmit={handleSubmit}>
+        <h3>Submit Your Favorite Bakery: </h3>
+        <br></br>
+
+        <label htmlFor="name">Bakery name: </label>
+        <input
+          type="text"
+          id="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <br></br>
+        <br></br>
+
+        <label htmlFor="city">City: </label>
+        <input
+          type="text"
+          id="city"
+          value={city}
+          onChange={(e) => setCity(e.target.value)}
+        />
+        <br></br>
+        <br></br>
+
+        <label htmlFor="country">Country: </label>
+        <input
+          type="text"
+          id="country"
+          value={country}
+          onChange={(e) => setCountry(e.target.value)}
+        />
+        <br></br>
+        <br></br>
+
+        <label htmlFor="review">Review: </label>
+        <input
+          type="text"
+          id="review"
+          value={review}
+          onChange={(e) => setReview(e.target.value)}
+        />
+        <br></br>
+        <br></br>
+
+        <label htmlFor="author">Author: </label>
+        <input
+          type="text"
+          id="author"
+          value={author}
+          onChange={(e) => setAuthor(e.target.value)}
+        />
+        <br></br>
+        <br></br>
+
+        <button type="submit">Submit</button>
+        <br></br>
+        <br></br>
+      </form>
+    </div>
   );
 }
 
