@@ -8,6 +8,7 @@ import Bakery from "./components/Bakery";
 import Nav from "./components/Nav";
 import Homepage from "./components/Homepage";
 import IndividualBakeries from "./components/IndividualBakeries";
+import Footer from "./components/Footer";
 
 function App() {
   const [bakeries, setBakeries] = useState([]);
@@ -60,7 +61,7 @@ function App() {
           ))}
         </div>
       </Route>
-      ≠≠
+      <Footer />
     </div>
   );
 }
