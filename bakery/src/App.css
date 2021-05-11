@@ -4,6 +4,7 @@
 
 .intro-h1 {
   font-family: "Courier New", Courier, monospace;
+  margin-top: 70px;
 }
 
 button {
@@ -22,8 +23,14 @@ nav {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+  align-items: center;
+  width: 100%;
+  height: 50px;
   border-bottom: rgb(18, 19, 15) solid 2px;
-  background-color: rgba(245, 251, 252, 0.651);
+  background-color: rgba(245, 251, 252, 0.899);
+  position: fixed;
 }
 nav a {
   text-decoration: none;
