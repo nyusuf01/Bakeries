@@ -36,7 +36,7 @@ nav {
   height: 50px;
   border-bottom: rgb(18, 19, 15) solid 2px;
   background-color: rgba(245, 251, 252, 0.899);
-  position: fixed;
+  /* position: fixed; */
 }
 nav a {
   text-decoration: none;
