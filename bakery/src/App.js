@@ -40,10 +40,12 @@ function App() {
             </p>
             <br></br>
             <br></br>
-            {bakeries &&
-              bakeries.map((bakery) => (
-                <Homepage key={bakery._id} bakery={bakery} />
-              ))}
+            <div className="columnz">
+              {bakeries &&
+                bakeries.map((bakery) => (
+                  <Homepage key={bakery._id} bakery={bakery} />
+                ))}
+            </div>
           </div>
         </main>
       </Route>

@@ -7,6 +7,12 @@
   margin-top: 70px;
 }
 
+.columnz {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
 button {
   background: #efefef;
   color: black;
@@ -95,6 +101,10 @@ img {
   align-items: stretch;
   background-color: white;
   justify-content: center;
+}
+
+.form-container h3 {
+  margin-top: 60px;
 }
 
 .intro-p {
