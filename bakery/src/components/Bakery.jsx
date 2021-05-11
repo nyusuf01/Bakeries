@@ -5,9 +5,10 @@ function Bakery(props) {
   return (
     <div className="bakery-column-container">
       <br></br>
-      <img src={image} />
-      <br></br>
       <h3>{name}</h3>
+
+      <br></br>
+      <img src={image} />
       <h4>{city}</h4>
       <h5>{country}</h5>
       <h5>{review}</h5>

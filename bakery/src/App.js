@@ -27,6 +27,19 @@ function App() {
       <Route exact path="/">
         <main>
           <div className="bakery-container">
+            <br></br>
+
+            <h1 className="intro-h1">List of Best Bakeries</h1>
+            <br></br>
+
+            <p className="intro-p">
+              If you're a fiend for comfort food and are seeking to indulge in
+              some bread, cookies or cakes, try some delicious bites from some
+              of the best bakeries listed. Also, contribute to our list and add
+              your own two cents.
+            </p>
+            <br></br>
+            <br></br>
             {bakeries &&
               bakeries.map((bakery) => (
                 <Homepage key={bakery._id} bakery={bakery} />
