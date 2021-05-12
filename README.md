@@ -4,7 +4,9 @@
 
 ## Project Description
 
-<a href="thebestbakeryapp.netlify.app">thebestbakeryapp.netlify.app</a>
+<a href="https://thebestbakeryapp.netlify.app
+/">thebestbakeryapp.netlify.app
+</a>
 
 Bakeries is a website built with React and Airtable that sources out its data from the users. Users are able to leave their input on what and where their best bakery experience was, as well as insert their review of the said bakery. The homepage displays some of the most popular bakeries that has been reviewed and also leads to another page where users can fill out a form to cast their opinion on their favorite bakeries.
 
