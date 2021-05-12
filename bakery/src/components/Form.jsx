@@ -28,7 +28,7 @@ function Form(props) {
     });
 
     if (duplicate) {
-      alert("we have a duplicate");
+      alert("Thanks for your contribution! We have that ");
     } else {
       //
 

@@ -2,9 +2,9 @@
 
 ## Bakeries
 
-
-
 ## Project Description
+
+Deployed Site : thebestbakeryapp.netlify.app
 
 Bakeries is a website built with React and Airtable that sources out its data from the users. Users are able to leave their input on what and where their best bakery experience was, as well as insert their review of the said bakery. The homepage displays some of the most popular bakeries that has been reviewed and also leads to another page where users can fill out a form to cast their opinion on their favorite bakeries.
 
@@ -22,57 +22,48 @@ Bakeries is a website built with React and Airtable that sources out its data fr
 
 ![iPhone3](https://user-images.githubusercontent.com/80069382/117472188-9fd3ad80-af26-11eb-8973-c3195fbbd234.png)
 
-
-
-
 ## Component Hierarchy
 
 <img width="955" alt="projecttwowireframe" src="https://user-images.githubusercontent.com/80069382/117487498-298c7680-af39-11eb-8f1e-7d308928732f.png">
 
-
-
-
 ## API and Data Sample
-
-
 
 ```json
 {
-    "records": [
-        {
-            "id": "recwhiFgxauOXv4Fo",
-            "fields": {
-                "city": "new york",
-                "review": "universally perfect, crunchy and cakey soft",
-                "name": "maman",
-                "country": "u.s.a"
-            },
-            "createdTime": "2021-05-06T10:53:57.000Z"
-        },
-        {
-            "id": "recycdZPKNkqrk2gO",
-            "fields": {
-                "city": "new york",
-                "review": "like a massive chunk of space rubble",
-                "name": "levain bakery",
-                "country": "u.s.a"
-            },
-            "createdTime": "2021-05-06T10:53:57.000Z"
-        },
-        {
-            "id": "recM4ppmXORioqpF4",
-            "fields": {},
-            "createdTime": "2021-05-06T10:53:57.000Z"
-        }
-    ],
-    "offset": "recM4ppmXORioqpF4"
+  "records": [
+    {
+      "id": "recwhiFgxauOXv4Fo",
+      "fields": {
+        "city": "new york",
+        "review": "universally perfect, crunchy and cakey soft",
+        "name": "maman",
+        "country": "u.s.a"
+      },
+      "createdTime": "2021-05-06T10:53:57.000Z"
+    },
+    {
+      "id": "recycdZPKNkqrk2gO",
+      "fields": {
+        "city": "new york",
+        "review": "like a massive chunk of space rubble",
+        "name": "levain bakery",
+        "country": "u.s.a"
+      },
+      "createdTime": "2021-05-06T10:53:57.000Z"
+    },
+    {
+      "id": "recM4ppmXORioqpF4",
+      "fields": {},
+      "createdTime": "2021-05-06T10:53:57.000Z"
+    }
+  ],
+  "offset": "recM4ppmXORioqpF4"
 }
 ```
 
 ### MVP/PostMVP
 
-
-#### MVP 
+#### MVP
 
 -Home page with a clickable button that route to the respective feed.
 
@@ -80,31 +71,25 @@ Bakeries is a website built with React and Airtable that sources out its data fr
 
 -Get and post opinions of users favorite bakeries from users using Airtable
 
+#### PostMVP
 
-
-
-#### PostMVP  
-
-- A more user friendly UI 
+- A more user friendly UI
 - A voting feature for top three or top ten bakeries
 - Comment on each user submitted bakeries
 
 ## Project Schedule
 
-
-|  Day | Deliverable | Status
-|---|---| ---|
-|May 06| Prompt / Wireframes / Priority Matrix / Timeframes | Ongoing
-|May 07| Project Approval | 
-|May 10| Pseudocode and building components, getting and setting| Incomplete
-|May 14| Pseudocode and building components, getting and setting | Incomplete
-|May 15| CSS  | Incomplete
-|May 16| MVP | Incomplete
-|May 17| Presentations | Incomplete
+| Day    | Deliverable                                             | Status     |
+| ------ | ------------------------------------------------------- | ---------- |
+| May 06 | Prompt / Wireframes / Priority Matrix / Timeframes      | Ongoing    |
+| May 07 | Project Approval                                        |
+| May 10 | Pseudocode and building components, getting and setting | Incomplete |
+| May 14 | Pseudocode and building components, getting and setting | Incomplete |
+| May 15 | CSS                                                     | Incomplete |
+| May 16 | MVP                                                     | Incomplete |
+| May 17 | Presentations                                           | Incomplete |
 
 ## Timeframes
-
-
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
