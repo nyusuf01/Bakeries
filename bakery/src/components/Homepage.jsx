@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
 function Homepage(props) {
+  console.log(props);
+
   return (
     <div className="homepage-bakery-container">
       <h1>{props.bakery.fields.name}</h1>

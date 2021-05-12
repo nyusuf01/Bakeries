@@ -2,15 +2,15 @@
 
 ## Unexpected Behavior
 
-> Homepage not rendering any data
+> Duplicate posts of one object
 
 ## Expected Behavior
 
-> Landing page renders bakery name and image. Links to another site.
+> Removes multiple posts on one object
 
 ## Reproduce the Error
 
-> Describe the steps we can take to reproduce the error, i.e.:
+> On the landing page or when clicking on the Best Bakeries link on the nav bar
 
 ```md
 1. Clone this repo.
@@ -29,7 +29,7 @@ No error message
 
 ## Attempted Resolution
 
-> Refering back to the eat, pray, loon exercise and the bird homework.
+> Refering back to the eat, pray, loon exercise.
 
 ```md
 

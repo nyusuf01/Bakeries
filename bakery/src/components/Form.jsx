@@ -11,23 +11,6 @@ function Form(props) {
   const [review, setReview] = useState("");
   const params = useParams();
 
-  useEffect(() => {
-    // if we're editing (we have an id), and our bakeries have loaded (we have more than 0)
-    if (params.id && props.bakeries.length) {
-      // .find() the record with an id that matches our id in params
-      const bakery = props.bakeries.find((bakery) => bakery.id === params.id);
-      // if we find that record (if it exists)
-      if (bakery) {
-        // set the country to that record's country etc.
-        setName(bakery.fields.name);
-        setCity(bakery.fields.season);
-        setCountry(bakery.fields.country);
-        setReview(bakery.fields.review);
-        setAuthor(bakery.fields.author);
-      }
-    }
-  }, [props.bakeries, params.id]);
-
   const handleSubmit = async (e) => {
     // prevent the default behavior of the submit event
     e.preventDefault();
@@ -53,10 +36,9 @@ function Form(props) {
   return (
     <div className="form-container">
       <br></br>
+      <h3>Submit Your Favorite Bakery: </h3>
+      <br></br>
       <form onSubmit={handleSubmit}>
-        <h3>Submit Your Favorite Bakery: </h3>
-        <br></br>
-
         <label htmlFor="name">Bakery name: </label>
         <input
           type="text"
