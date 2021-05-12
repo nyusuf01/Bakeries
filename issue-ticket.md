@@ -29,7 +29,7 @@ No error message
 
 ## Attempted Resolution
 
-> Refering back to the eat, pray, loon exercise.
+> Refering back to the eat, pray, loon and react-password-validator exercise.
 
 ```md
 
