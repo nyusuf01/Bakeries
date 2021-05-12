@@ -22,15 +22,21 @@ function Form(props) {
       review,
       author,
     };
-    // make our request
-    if (params.id) {
-      const specificURL = `${baseURL}/${params.id}`;
-      await axios.put(specificURL, { fields: newBakery }, config);
+    // check name against bakery index
+    const duplicate = props.bakeries.find((bakery) => {
+      return name.toLowerCase() === bakery.fields.name.toLowerCase();
+    });
+
+    if (duplicate) {
+      alert("we have a duplicate");
     } else {
+      //
+
       await axios.post(baseURL, { fields: newBakery }, config);
+
+      //
+      props.setToggleFetch((curr) => !curr);
     }
-    // ...what do we do? (😉)
-    props.setToggleFetch((curr) => !curr);
   };
 
   return (
