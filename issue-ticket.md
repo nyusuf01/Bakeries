@@ -17,6 +17,8 @@
 2. Run `npm start`.
 3. Navigate to the landing page.
 4. Click on Best Bakeries, which should return the API data set.
+
+or on deployed site
 ```
 
 ## Documentation
