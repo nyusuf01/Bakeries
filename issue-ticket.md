@@ -2,15 +2,15 @@
 
 ## Unexpected Behavior
 
-> Duplicate posts of one object
+> Using typeahead and tried routing search results to corresponding query but it won't work
 
 ## Expected Behavior
 
-> Removes multiple posts on one object
+> Query links to search results
 
 ## Reproduce the Error
 
-> On the landing page or when clicking on the Best Bakeries link on the nav bar
+> On the nav bar of the landing page
 
 ```md
 1. Clone this repo.
@@ -29,7 +29,7 @@ No error message
 
 ## Attempted Resolution
 
-> Refering back to the eat, pray, loon and react-password-validator exercise.
+> Type ahead recording 05/10/2021
 
 ```md
 

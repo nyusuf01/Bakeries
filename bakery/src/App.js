@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <Nav />
+      <Nav bakeries={bakeries} />
       <Route exact path="/">
         <main>
           <div className="bakery-container">

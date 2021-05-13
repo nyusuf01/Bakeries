@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  z-index: 0;
 }
 
 .intro-h1 {
@@ -11,6 +12,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
+  z-index: 0;
 }
 
 button {
@@ -136,6 +138,21 @@ img {
 
 .shout-out {
   font-size: 10px;
+}
+
+.typeahead-container {
+  position: relative;
+}
+
+.results-container {
+  width: 142px;
+  margin: 0 auto;
+  border: 1px solid black;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: white;
+  z-index: 5;
+  box-shadow: 3px 3px 5px #afafaf;
 }
 
 @media screen and (max-width: 768px) {

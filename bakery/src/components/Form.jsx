@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useState } from "react";
+
 import axios from "axios";
 import { baseURL, config } from "../services";
 
@@ -9,7 +9,6 @@ function Form(props) {
   const [country, setCountry] = useState("");
   const [name, setName] = useState("");
   const [review, setReview] = useState("");
-  const params = useParams();
 
   const handleSubmit = async (e) => {
     // prevent the default behavior of the submit event
@@ -28,13 +27,15 @@ function Form(props) {
     });
 
     if (duplicate) {
-      alert("Thanks for your contribution! We have that ");
+      alert(
+        "Thanks for your contribution but we have that entry already listed."
+      );
     } else {
-      //
+      // post into API
 
       await axios.post(baseURL, { fields: newBakery }, config);
 
-      //
+      //refresh data
       props.setToggleFetch((curr) => !curr);
     }
   };
