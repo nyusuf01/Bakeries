@@ -1,16 +1,6 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import { Route } from "react-router-dom";
 
-function Nav(props) {
-  // some state to store the search term
-  const [findCity, setFindCity] = useState("");
-
-  // filter through bakeries from props to find any with a matching .fields.city
-  const matchingBakeries = props.bakeries.filter((bakery) =>
-    bakery.fields.city.toLowerCase().includes(findCity.toLowerCase())
-  );
-
+function Nav({ findCity, setFindCity }) {
   return (
     <nav>
       <Link to="/">Best Bakeries</Link>
@@ -28,15 +18,6 @@ function Nav(props) {
           value={findCity}
           onChange={(e) => setFindCity(e.target.value)}
         />
-        {findCity && (
-          <div className="results-container">
-            {matchingBakeries.map((bakery) => (
-              <Route path="/info/:city">
-                <p>{bakery.fields.city}</p>
-              </Route>
-            ))}
-          </div>
-        )}
       </div>
     </nav>
   );

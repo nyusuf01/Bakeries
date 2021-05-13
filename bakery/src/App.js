@@ -14,6 +14,14 @@ function App() {
   const [bakeries, setBakeries] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(false);
 
+  // some state to store the search term
+  const [findCity, setFindCity] = useState("");
+
+  // filter through bakeries from props to find any with a matching .fields.city
+  const matchingBakeries = bakeries.filter((bakery) => {
+    return bakery.fields.city.toLowerCase().includes(findCity.toLowerCase());
+  });
+
   useEffect(() => {
     const fetchBakeries = async () => {
       const resp = await axios.get(baseURL, config);
@@ -24,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <Nav bakeries={bakeries} />
+      <Nav findCity={findCity} setFindCity={setFindCity} bakeries={bakeries} />
       <Route exact path="/">
         <main>
           <div className="bakery-container">
@@ -42,8 +50,8 @@ function App() {
             <br></br>
             <br></br>
             <div className="columnz">
-              {bakeries &&
-                bakeries.map((bakery) => (
+              {matchingBakeries &&
+                matchingBakeries.map((bakery) => (
                   <Homepage key={bakery._id} bakery={bakery} />
                 ))}
             </div>
