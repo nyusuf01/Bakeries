@@ -25,6 +25,7 @@ function App() {
   useEffect(() => {
     const fetchBakeries = async () => {
       const resp = await axios.get(baseURL, config);
+      console.log(resp.data);
       setBakeries(resp.data.records);
     };
     fetchBakeries();

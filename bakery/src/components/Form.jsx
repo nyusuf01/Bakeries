@@ -30,7 +30,9 @@ function Form(props) {
       alert(
         "Thanks for your contribution but we have that entry already listed."
       );
-    } else {
+      // } else if (name && city === null) {
+      //   alert("Bakery name and city are required fields.");
+      // } else {
       // post into API
 
       await axios.post(baseURL, { fields: newBakery }, config);
