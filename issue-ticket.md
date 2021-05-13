@@ -2,15 +2,22 @@
 
 ## Unexpected Behavior
 
-> Using typeahead and tried routing search results to corresponding query but it won't work
+> Showing TypeError: Cannot read property 'toLowerCase' of undefined
 
 ## Expected Behavior
 
-> Query links to search results
+>
 
 ## Reproduce the Error
 
-> On the nav bar of the landing page
+> // filter through bakeries from props to find any with a matching .fields.city
+> 21 | const matchingBakeries = bakeries.filter((bakery) => {
+> 22 | return bakery.fields.city.toLowerCase().includes(findCity.toLowerCase());
+
+     | ^  23 | });
+
+24 |
+25 | useEffect(() => {
 
 ```md
 1. Clone this repo.
@@ -23,15 +30,16 @@ or on deployed site
 
 ## Documentation
 
-> No error message
+> {error: "NOT_FOUND"}
+> error: "NOT_FOUND"
 
 ```md
-No error message
+
 ```
 
 ## Attempted Resolution
 
-> Type ahead recording 05/10/2021
+>
 
 ```md
 
