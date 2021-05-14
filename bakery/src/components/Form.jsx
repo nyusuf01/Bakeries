@@ -32,9 +32,9 @@ function Form(props) {
       );
       // preventing an empty name or city post
     } else if (name === "") {
-      alert("The bakery name and the city are required fields to submit.");
+      alert("The bakery name is a required field to submit.");
     } else if (city === "") {
-      alert("The bakery name and the city are required fields to submit.");
+      alert("The city is a required field to submit.");
     } else {
       // post into API
 
