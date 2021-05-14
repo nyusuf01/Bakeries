@@ -96,25 +96,37 @@ Bakeries is a website built with React and Airtable that sources out its data fr
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Airtable setup            |    H     |      1 hr      |               |             |
-| Buttons                   |    H     |      2hrs      |               |             |
-| Data population page 1    |    H     |      3hrs      |               |             |
-| Data population page 2    |    H     |      3hrs      |               |             |
-| Data population page 3    |    H     |      3hrs      |               |             |
-| Form creation page 2      |    H     |      3hrs      |               |             |
-| Form creation page 2      |    H     |      3hrs      |               |             |
-| Data creation/update pg 2 |    H     |      3hrs      |               |             |
-| Data creation/update pg 3 |    H     |      3hrs      |               |             |
-| Component CSS page 1      |    H     |      3hrs      |               |             |
-| Component CSS page 2      |    H     |      3hrs      |               |             |
-| Total                     |    H     |     30 hrs     |               |             |
+| Airtable setup            |    H     |      1 hr      |      1 h      |    1 hr     |
+| Button                    |    H     |      2hrs      |      1 h      |    1 hr     |
+| Data population page 1    |    H     |      3hrs      |     3 hrs     |    3 hrs    |
+| Data population page 2    |    H     |      3hrs      |     4 hrs     |    4 hrs    |
+| Data population page 3    |    H     |      3hrs      |     4 hrs     |    4 hrs    |
+| Form creation page 2      |    H     |      3hrs      |     4 hrs     |    4 hrs    |
+| Form creation page 2      |    H     |      3hrs      |     4 hrs     |    4 hr     |
+| Data creation/update pg 2 |    H     |      3hrs      |     3 hrs     |    3 hrs    |
+| Data creation/update pg 3 |    H     |      3hrs      |     3 hrs     |    3 hrs    |
+| Component CSS page 1      |    H     |      3hrs      |     4 hrs     |    4 hrs    |
+| Component CSS page 2      |    H     |      3hrs      |     4 hr      |    4 hrs    |
+| Total                     |    H     |     30 hrs     |    37 hrs     |   37 hrs    |
 
 ## SWOT Analysis
 
 ### Strengths:
 
+The ability to refer back to previous exercises and homework was a big leverage in being able to complete this project.
+
 ### Weaknesses:
+
+Successfully rendering new components to my page takes a couple of troubleshoots.
+
+Writing new if/else statements.
+
+CSS
 
 ### Opportunities:
 
+Learning how to use grid and use CSS more fluently.
+
 ### Threats:
+
+Sometimes trying to make new functions for rendering data can get quite tricky.
