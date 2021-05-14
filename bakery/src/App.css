@@ -21,7 +21,7 @@ button {
   transition: all 0.2s ease-in-out;
 }
 button:hover {
-  background: black;
+  background: rgb(160, 98, 132);
   color: #efefef;
 }
 
@@ -68,6 +68,11 @@ img {
   padding: 5px;
   margin: 0;
   font-weight: bold;
+}
+
+.bakery-info-container h4 button a {
+  text-decoration: none;
+  color: black;
 }
 
 .bakery-column-container img {

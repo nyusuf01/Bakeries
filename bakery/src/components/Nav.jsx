@@ -9,7 +9,7 @@ function Nav({ findCity, setFindCity }) {
        * container
        *   input
        *   container
-       *     matching bakeries
+       *     matching cities
        */}
       <div className="typeahead-container">
         <label htmlFor="city">Search cities: </label>
