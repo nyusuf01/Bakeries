@@ -31,7 +31,7 @@ function Form(props) {
         "Thanks for your contribution but we have that entry already listed."
       );
       // preventing an empty name or city post
-    } else if (name && city === "") {
+    } else if (name || city === "") {
       alert("The bakery name and the city are required fields to submit.");
     } else {
       // post into API
