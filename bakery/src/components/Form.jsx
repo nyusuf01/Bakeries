@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { useHistory } from "react-router-dom";
 import axios from "axios";
 import { baseURL, config } from "../services";
 
@@ -9,6 +9,9 @@ function Form(props) {
   const [country, setCountry] = useState("");
   const [name, setName] = useState("");
   const [review, setReview] = useState("");
+  const [image, setImage] = useState("");
+  const [website, setWebsite] = useState("");
+  const history = useHistory();
 
   const handleSubmit = async (e) => {
     // prevent the default behavior of the submit event
@@ -20,6 +23,8 @@ function Form(props) {
       country,
       review,
       author,
+      image,
+      website,
     };
     // check name against bakery index
     const duplicate = props.bakeries.find((bakery) => {
@@ -42,6 +47,7 @@ function Form(props) {
 
       //refresh data
       props.setToggleFetch((curr) => !curr);
+      history.push("/");
     }
   };
 
@@ -97,6 +103,26 @@ function Form(props) {
           id="author"
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
+        />
+        <br></br>
+        <br></br>
+
+        <label htmlFor="image">Image: </label>
+        <input
+          type="text"
+          id="image"
+          value={image}
+          onChange={(e) => setImage(e.target.value)}
+        />
+        <br></br>
+        <br></br>
+
+        <label htmlFor="website">Website: </label>
+        <input
+          type="text"
+          id="website"
+          value={website}
+          onChange={(e) => setWebsite(e.target.value)}
         />
         <br></br>
         <br></br>

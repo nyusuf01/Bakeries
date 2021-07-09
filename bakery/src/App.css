@@ -4,7 +4,7 @@
 }
 
 .intro-h1 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-top: 70px;
 }
 
@@ -21,7 +21,7 @@ button {
   transition: all 0.2s ease-in-out;
 }
 button:hover {
-  background: rgb(160, 98, 132);
+  background: rgb(103, 231, 156);
   color: #efefef;
 }
 
@@ -37,13 +37,14 @@ nav {
   width: 100%;
   height: 50px;
   border-bottom: rgb(18, 19, 15) solid 2px;
-  background-color: rgba(245, 251, 252, 0.899);
+  background-color: rgba(53, 131, 145, 0.899);
   /* position: fixed; */
 }
 nav a {
   text-decoration: none;
   transition: all 0.2s ease-in-out;
   border-bottom: 2px solid transparent;
+  color: rgb(247, 244, 83);
 }
 nav a:hover {
   border-bottom: 2px solid currentColor;
@@ -89,16 +90,16 @@ img {
 
 .homepage-bakery-container h1 {
   font-weight: normal;
-  background-color: rgba(185, 196, 191, 0.468);
+  background-color: rgba(117, 209, 232, 0.938);
   border-bottom: solid black 1px;
   padding: 5px;
   margin: 0;
   font-weight: bold;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .text h2 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .form-container {
@@ -147,6 +148,10 @@ img {
 
 .typeahead-container {
   position: relative;
+}
+
+.typeahead-container label {
+  color: rgb(247, 244, 83);
 }
 
 .results-container {
