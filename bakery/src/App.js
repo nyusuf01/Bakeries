@@ -65,10 +65,10 @@ function App() {
       <Route path="/new">
         <div>
           <Form bakeries={bakeries} setToggleFetch={setToggleFetch} />
-          {matchingBakeries &&
+          {/* {matchingBakeries &&
             matchingBakeries.map((bakery) => (
               <Bakery bakery={bakery} setToggleFetch={setToggleFetch} />
-            ))}
+            ))} */}
         </div>
       </Route>
       <Footer />
